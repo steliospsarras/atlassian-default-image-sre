@@ -1,0 +1,17 @@
+**/.idea/*
+**/.terraform/*
+terraform.tfplan
+terraform.tfstate
+terraform.tfstate.backup
+!**/s3-backend/terraform.tfstate
+!**/s3-backend/terraform.tfstate.backup
+**/*.iml
+*.plan
+
+# vim swp files
+*.swp
+
+# Packer cache and build directories
+**/packer_cache/*
+**/build/*
+
