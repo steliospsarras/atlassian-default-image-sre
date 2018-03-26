@@ -12,7 +12,9 @@ Provides an alternative to the Atlassian provided default image for Bitbucket Pi
 
 This image is based on:
 
-`atlassian/default-image:2`
+* `atlassian/default-image:2`
+* `Packer 1.2.1`
+* `Terraform 0.11.5`
 
 
 ### Usage

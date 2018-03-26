@@ -26,4 +26,5 @@ RUN \
     curl https://releases.hashicorp.com/terraform/0.11.5/terraform_0.11.5_linux_amd64.zip > terraform.zip && \
     unzip terraform.zip && \
     mv terraform /usr/bin/ && \
-    rm -f terraform.zip
+    rm -f terraform.zip && \
+    rm -rf /var/lib/apt/lists/*    
