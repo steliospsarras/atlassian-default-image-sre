@@ -4,13 +4,14 @@ Provides an alternative to the Atlassian provided default image for Bitbucket Pi
 
 * AWS Command Line Interface (CLI)
 * Ansible
+* Google Cloud SDK
 * JQ
 * Packer
 * Terraform
 
 ### Version
 
-This image is based on:
+This image is based on the following fixed (TODO) versions:
 
 * `atlassian/default-image:2`
 * `Packer 1.2.1`
