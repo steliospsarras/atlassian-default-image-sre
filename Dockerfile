@@ -27,7 +27,7 @@ RUN \
     rm -f packer.zip && \
     # install Terraform
     cd /root/tmp && \
-    curl https://releases.hashicorp.com/terraform/0.11.5/terraform_0.11.5_linux_amd64.zip > terraform.zip && \
+    curl https://releases.hashicorp.com/terraform/0.11.7/terraform_0.11.7_linux_amd64.zip > terraform.zip && \
     unzip terraform.zip && \
     mv terraform /usr/bin/ && \
     rm -f terraform.zip && \

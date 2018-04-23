@@ -15,7 +15,7 @@ This image is based on the following fixed (TODO) versions:
 
 * `atlassian/default-image:2`
 * `Packer 1.2.1`
-* `Terraform 0.11.5`
+* `Terraform 0.11.7`
 
 
 ### Usage
