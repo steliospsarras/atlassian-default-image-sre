@@ -21,7 +21,7 @@ RUN \
     apt-get update -y && apt-get install google-cloud-sdk -y && \
     # install Packer
     cd /root && mkdir tmp && cd tmp && \
-    curl https://releases.hashicorp.com/packer/1.2.1/packer_1.2.1_linux_amd64.zip > packer.zip && \
+    curl https://releases.hashicorp.com/packer/1.2.3/packer_1.2.3_linux_amd64.zip > packer.zip && \
     unzip packer.zip && \
     mv packer /usr/bin/ && \
     rm -f packer.zip && \

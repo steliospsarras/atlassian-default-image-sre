@@ -14,7 +14,7 @@ Provides an alternative to the Atlassian provided default image for Bitbucket Pi
 This image is based on the following fixed (TODO) versions:
 
 * `atlassian/default-image:2`
-* `Packer 1.2.1`
+* `Packer 1.2.3`
 * `Terraform 0.11.7`
 
 
